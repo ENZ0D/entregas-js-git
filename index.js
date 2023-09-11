@@ -70,12 +70,13 @@ pizzaInferior600(pizzas)
 
 // c) El nombre de cada pizza con su respectivo precio.
 console.log(`*** RESOLUCIÓN ITEM C ***`);
-const mostrarNombreYPrecio = pizzasArray.forEach(pizza => {
-  for (let i=0; i<pizzasArray.length; i++){
-    console.log(`La ${pizzasArray[i].nombre} tiene un valor de ${pizzasArray[i].precio} pesos.`)
-  }
-})
-mostrarNombreYPrecio(pizzas)
+//No me estaría funcionando y no me doy cuenta en que me estoy equivocando
+//const mostrarNombreYPrecio = pizzasArray.forEach(pizza => {
+//  for (let i=0; i<pizzasArray.length; i++){
+//    console.log(`La ${pizzasArray[i].nombre} tiene un valor de ${pizzasArray[i].precio} pesos.`)
+//  }
+//})
+//mostrarNombreYPrecio(pizzas)
 
 // d) Todos los ingredientes de cada pizza (En cada iteración imprimir los ingredientes de la pizza que se esta 
 // recorriendo). Ayuda: van a tener que realizar dos recorridos, ya que cada pizza del array de pizzas tiene una
